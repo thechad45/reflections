@@ -26,6 +26,8 @@ organized? How would branches help?
 How do the diagrams help you visualize the branch structure?
 
 	Using the diagrams, I can tell what happens when a new branch is started, and I can see what is meant by the head of a branch. I am, however, still a little bit foggy about what happens when you make changes to a commit. Like, does it update the following commits, or does it just become the new head? I think it just becomes the new head. But what if you then go back to the most recent commit? Are the changes from the older commit carried forward? I think they are.
+	* I was wrong. They are not.
+	What I want to know: what if you want to make a small change from a previous commit, but you want to keep a bunch of the changes from that point forward. I guess you could just update the head, couldn't you?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
