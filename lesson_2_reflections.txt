@@ -16,8 +16,12 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You can use the staging area in such a way by using the git diff, which will show the difference between the working directory and the staging area; you can also use git diff --staged to compare the staging area to the most recent commit in the repository.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	A situation where it would be helpful would be when you want to test out a change while keeping the original (master) the same. In this way, you don't have to constantly go back to previous commits to do the testing; you could just switch branches.
 
 How do the diagrams help you visualize the branch structure?
 
