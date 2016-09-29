@@ -32,4 +32,9 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    It would make sense to make changes in a separate branch when you
+    are collaborating and need someone else's input before brashly 
+    changing the master or polished, working version. Often, this might
+    be an experimental change. A benefit of working directly on the master
+    branch might be that it's more straightforward, I guess. It's easier
+    to see the step by step process that got you to the most recent commit.
